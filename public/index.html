@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pusher Poll</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<h1>Top Brands of Laptops</h1>
+		<p>Vote for your favorite Brand</p>
+		<form id="vote-form">
+			<p>
+				<input type="radio" name="laptop" id="Hewlett Packard (HP)" value="Hewlett Packard (HP)">
+				<label for="Hewlett Packard (HP)">Hewlett Packard (HP)</label>
+			</p>
+			<p>
+				<input type="radio" name="laptop" id="Lenovo"    value="Lenovo">
+				<label for="Lenovo">Lenovo</label>		
+			</p>
+			<p>
+				<input type="radio" name="laptop" id="Dell"      value="Dell">
+				<label for="Dell">Dell</label>	
+			</p>
+			<p>
+				<input type="radio" name="laptop" id="Asus"      value="Asus">
+				<label for="Asus">Asus</label>	
+			</p>
+			<p>
+				<input type="radio" name="laptop" id="Apple"     value="Apple">
+				<label for="Apple">Apple</label>	
+			</p>
+			<p>
+				<input type="radio" name="laptop" id="Acer"      value="Acer">
+				<label for="Acer">Acer</label>	
+			</p>
+			<p>
+				<input type="radio" name="laptop" id="Microsoft" value="Microsoft">
+				<label for="Microsoft">Microsoft</label>	
+			</p>
+			<p>
+				<input type="radio" name="laptop" id="Toshiba"   value="Toshiba">
+				<label for="Toshiba">Toshiba</label>	
+			</p>
+			<input type="submit" value="Vote" class="btn">
+		</form>
+		<br><br>
+
+    <h5 style="text-align: center" id="chartTitle"></h5>
+    <div id="chart" style="height: 300px;width:100%"></div>
+
+	</div>
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+  	<script src="main.js"></script>
+</body>
+</html>
